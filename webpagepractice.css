@@ -1,0 +1,281 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Courgette', cursive;
+    box-sizing: border-box; 
+}
+
+header {
+    width: 100%; 
+    height: auto; 
+    background-color: red;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.logo {
+    font-size: 48px; 
+    font-weight: 900;
+    color: #fff;
+}
+
+header p {
+    font-size: 18px; 
+    text-decoration: none; 
+    padding: 1rem; 
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+}
+
+header p:hover {
+    color: #9DAAF2;
+    transition: 1s; 
+}
+
+header p:hover {
+    color: #9DAAF2;
+    text-decoration: underline; 
+    transition: 1s; 
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6A3D;
+    height: 95vh;
+    width: 100%;
+    padding: 0em 8rem 8rem 8rem; 
+}
+
+.screenleft {
+    width: 50%; 
+    padding: 3rem;
+    height: auto; 
+    padding-bottom: 200px; 
+    
+}
+
+.screenleft h1 {
+    font-size: 41px; 
+    margin-bottom: 16px; 
+    color: #fff;
+    line-height: 1.5; 
+}
+
+.screenleft p {
+    color: #fff;
+    margin-bottom: 18px; 
+    line-height: 2; 
+}
+
+.screenleft button {
+    background-color: #9DAAF2;
+    font-size: 1rem; 
+    border: none; 
+    padding: 1rem 2rem;
+    border-radius: 2rem; 
+    cursor: pointer;    
+}
+
+.screenleft button:hover {
+    background-color: #fff; 
+    transition: 1s; 
+}
+
+.screenright {
+    width: 50%; 
+    padding: 1rem;
+}
+
+.screenright h2 {
+    background-color: #F4DB7D; 
+    border: none; 
+    margin-bottom: 18px;  
+    font-size: 1rem; 
+    border-radius: 8px; 
+    color: #1A2238;
+    padding: 1rem 5rem;
+    text-align: center; 
+    box-shadow: 0px 5px 25px #1A2238; 
+}
+
+.screenright form {
+    background-color: #1A2238; 
+    line-height: 3; 
+    text-align: center;
+    border-radius: 8px; 
+    color: #fff;
+    box-shadow: 0px 5px 25px #F4DB7D;
+    opacity: 0.8;
+}
+
+.screenright fieldset {
+    border: none; 
+    padding: 1rem; 
+}
+
+fieldset input {
+    width: 100%; 
+    padding: 6px; 
+    border-radius: 8px; 
+    border: none; 
+}
+
+form button {
+    background-color:#9DAAF2;
+    border: none; 
+    font-size: 1rem; 
+    padding: .5rem 1.5rem; 
+    border-radius: 2rem; 
+    cursor: pointer; 
+}
+
+form button:hover {
+    background-color: #fff; 
+    transition: 1s; 
+}
+
+form p {
+    font-size: 11px;
+    padding: 1rem; 
+}
+
+img {
+   width: 150px;  
+   height: auto; 
+}
+
+
+
+
+@media screen and (min-width: 0px) {
+
+    
+    header {
+        width: 100vw; 
+        height: auto; 
+        background-color: #1A2238;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+    main {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF6A3D;
+        height: auto;
+        width: 100vw;
+        padding: 0em 8rem 8rem 8rem; 
+    }
+
+    .screenleft {
+        width: 100vw; 
+        height: auto; 
+        text-align: center;
+    }
+
+    .screenright {
+        width: 100vw; 
+        padding: 1rem;
+    }
+    
+}
+
+@media  (min-width: 568px)  {
+
+    header {
+        width: 100%; 
+        height: auto; 
+        background-color: #1A2238;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+    .screenleft {
+        width: 80vw; 
+        height: auto; 
+        text-align: center;
+    }
+
+    .screenright {
+        width: 80vw; 
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px)   {
+
+    header {
+        width: 100%; 
+        height: 200px; 
+        background-color:#1A2238;
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+    main {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FF6A3D;
+        width: 100vw;
+        height: 100vh;
+        padding: 0em 8rem 8rem 8rem; 
+    }
+
+
+}
+
+@media screen and (min-width: 992px)   {
+
+    header {
+        width: 100%; 
+        height: 200px; 
+        background-color: #1A2238;
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem;
+    }
+
+
+    main {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FF6A3D;
+        width: 100vw;
+        padding: 0em 8rem 8rem 8rem; 
+    }
+
+    .screenleft {
+        width: 50vw; 
+        height: auto; 
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .screenright {
+        width: 50vw; 
+        height: auto; 
+    }
+
+}
+
